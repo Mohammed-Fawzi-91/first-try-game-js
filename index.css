@@ -1,0 +1,90 @@
+html{ background-color: rgb(159, 250, 220);}
+
+.containar_1 , .containar_2{
+  
+  width: 75%;
+  margin: auto;
+  margin-top: 50px;
+    
+}
+
+.flex_box_1 , .flex_box_3 , .flex_box_2 , 
+.flex-black-jack-row-1 , .flex-black-jack-row-2{ 
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+h2{
+    display: flex;
+    justify-content: space-around;
+
+}
+.btn-primary{
+    background-color: rgb(22, 22, 190);
+    width: 100px;
+    height: 50px;
+    color: white;
+    border-radius: 8px;
+}
+.btn-danger{
+    background-color: rgb(214, 30, 30);
+    width: 100px;
+    height: 50px;
+    color: white;
+    border-radius: 8px;
+    
+    
+}
+
+
+.btn-sucsess{
+    background-color:rgb(21, 197, 21);
+    width: 100px;
+    height: 50px;
+    color: white;
+    border-radius: 8px;
+}
+    
+
+
+.btn-warning{
+    background-color: rgb(247, 184, 12);
+    width: 100px;
+    height: 50px;
+    color: white;
+    border-radius: 8px;
+}
+table, th , td{
+    border: solid black;
+
+  
+
+
+}
+.flex-black-jack-row-1, .flex-black-jack-all{
+  background-image: url("table.jpg");
+  color: white;
+  
+
+
+}
+.flex-black-jack-row-1 div {
+    border: solid black;
+    height: 400px;
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    
+
+   
+}
+#your-box img, #dealer-box img {
+    height: 110px;
+    width: 80px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
